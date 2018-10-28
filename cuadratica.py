@@ -6,7 +6,7 @@ c = float(input("c? >"))
 
 d = ((b**2)-(4*a*c)) #discriminante
 v = (-1*(b/(2*a))) #vertice
-if (v==0):
+if (v==-0.0): #porque a=1, b=0 y c=0 daba v=-0.0
     v = 0.0
 
 if (d<0):
