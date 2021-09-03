@@ -17,6 +17,7 @@ print("c = (%s, %s)" % (x3, y3))
 a = math.hypot(x1,y1)
 b = math.hypot(x2,y2)
 c = math.hypot(x3,y3)
+# s is the semiperimeter of the triangle
 s = 0.5 * (a + b + c)
 area = math.sqrt(s * (s - a) * (s - b) * (s - c))
 
